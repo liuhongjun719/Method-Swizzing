@@ -206,12 +206,51 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="数组越界" id="mBT-Rd-b8w"/>
+                    <navigationItem key="navigationItem" title="数组越界" id="mBT-Rd-b8w">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="DfQ-SQ-zmU">
+                            <connections>
+                                <segue destination="gKN-m0-Cq3" kind="push" id="LhU-Bi-PcU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZNd-ol-7t7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2992.5" y="414.5"/>
+        </scene>
+        <!--扩大点击区域-->
+        <scene sceneID="Ckn-pL-rE3">
+            <objects>
+                <viewController id="gKN-m0-Cq3" customClass="FiveViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="86j-Rl-Pn2"/>
+                        <viewControllerLayoutGuide type="bottom" id="OqZ-zl-k2n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="meV-fv-r2b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsx-5U-iuJ">
+                                <rect key="frame" x="164" y="206" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="clickMeAction:" destination="gKN-m0-Cq3" eventType="touchUpInside" id="c8G-kd-rEK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="扩大点击区域" id="FW9-Ih-bja"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="extendButton" destination="bsx-5U-iuJ" id="nbB-4f-LIm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idS-7b-ooh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3421.5" y="414.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RHD-Eb-5IH">

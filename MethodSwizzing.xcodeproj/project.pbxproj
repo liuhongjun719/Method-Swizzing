@@ -14,6 +14,9 @@
 		2E7A74741B4F571C008A5EFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A74731B4F571C008A5EFC /* Images.xcassets */; };
 		2E7A74771B4F571C008A5EFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A74751B4F571C008A5EFC /* LaunchScreen.xib */; };
 		2E7A74831B4F571C008A5EFC /* MethodSwizzingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A74821B4F571C008A5EFC /* MethodSwizzingTests.m */; };
+		8EA292861CC46A0C008F744B /* UIView+ExtendTouchRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA292851CC46A0C008F744B /* UIView+ExtendTouchRect.m */; };
+		8EA292891CC46AC8008F744B /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA292881CC46AC8008F744B /* FiveViewController.m */; };
+		8EA2928C1CC471C6008F744B /* UIButton+ExtendTouchRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2928B1CC471C6008F744B /* UIButton+ExtendTouchRect.m */; };
 		8EA6590D1C842C4E000F0CA1 /* UITableView+HJEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA658D71C842C4E000F0CA1 /* UITableView+HJEmptyView.m */; };
 		8EA6590E1C842C4E000F0CA1 /* HJEmptyView+HJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA658DA1C842C4E000F0CA1 /* HJEmptyView+HJ.m */; };
 		8EA6590F1C842C4E000F0CA1 /* HJEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA658DC1C842C4E000F0CA1 /* HJEmptyView.m */; };
@@ -75,6 +78,12 @@
 		2E7A747C1B4F571C008A5EFC /* MethodSwizzingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodSwizzingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7A74811B4F571C008A5EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7A74821B4F571C008A5EFC /* MethodSwizzingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzingTests.m; sourceTree = "<group>"; };
+		8EA292841CC46A0C008F744B /* UIView+ExtendTouchRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtendTouchRect.h"; sourceTree = "<group>"; };
+		8EA292851CC46A0C008F744B /* UIView+ExtendTouchRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendTouchRect.m"; sourceTree = "<group>"; };
+		8EA292871CC46AC8008F744B /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		8EA292881CC46AC8008F744B /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		8EA2928A1CC471C6008F744B /* UIButton+ExtendTouchRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExtendTouchRect.h"; sourceTree = "<group>"; };
+		8EA2928B1CC471C6008F744B /* UIButton+ExtendTouchRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExtendTouchRect.m"; sourceTree = "<group>"; };
 		8EA658D61C842C4E000F0CA1 /* UITableView+HJEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HJEmptyView.h"; sourceTree = "<group>"; };
 		8EA658D71C842C4E000F0CA1 /* UITableView+HJEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HJEmptyView.m"; sourceTree = "<group>"; };
 		8EA658D91C842C4E000F0CA1 /* HJEmptyView+HJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HJEmptyView+HJ.h"; sourceTree = "<group>"; };
@@ -199,6 +208,8 @@
 				8EA659251C842C97000F0CA1 /* ThirdUIViewController.m */,
 				8EFB04411C8531FC006F1822 /* FourthViewController.h */,
 				8EFB04421C8531FC006F1822 /* FourthViewController.m */,
+				8EA292871CC46AC8008F744B /* FiveViewController.h */,
+				8EA292881CC46AC8008F744B /* FiveViewController.m */,
 				8EFB04471C853471006F1822 /* Person.h */,
 				8EFB04481C853471006F1822 /* Person.m */,
 				8EA658D41C842C4E000F0CA1 /* TableView-EmptyView */,
@@ -386,6 +397,10 @@
 				8EFB04561C85353E006F1822 /* UINavigationController+Swizzling.m */,
 				8EFB04571C85353E006F1822 /* UIViewController+Swizzling.h */,
 				8EFB04581C85353E006F1822 /* UIViewController+Swizzling.m */,
+				8EA292841CC46A0C008F744B /* UIView+ExtendTouchRect.h */,
+				8EA292851CC46A0C008F744B /* UIView+ExtendTouchRect.m */,
+				8EA2928A1CC471C6008F744B /* UIButton+ExtendTouchRect.h */,
+				8EA2928B1CC471C6008F744B /* UIButton+ExtendTouchRect.m */,
 			);
 			path = SwizzleExtension;
 			sourceTree = "<group>";
@@ -497,6 +512,7 @@
 				8EA6591B1C842C4E000F0CA1 /* MJRefreshBackStateFooter.m in Sources */,
 				8EA659101C842C4E000F0CA1 /* UIView+Frame.m in Sources */,
 				8EA659191C842C4E000F0CA1 /* MJRefreshBackGifFooter.m in Sources */,
+				8EA292861CC46A0C008F744B /* UIView+ExtendTouchRect.m in Sources */,
 				8EFB04591C85353E006F1822 /* FCXSafeCollection.m in Sources */,
 				8EA659181C842C4E000F0CA1 /* MJRefreshAutoStateFooter.m in Sources */,
 				8EA6591D1C842C4E000F0CA1 /* MJRefreshNormalHeader.m in Sources */,
@@ -509,11 +525,13 @@
 				2E7A746F1B4F571C008A5EFC /* ViewController.m in Sources */,
 				8EA6590F1C842C4E000F0CA1 /* HJEmptyView.m in Sources */,
 				8EA659171C842C4E000F0CA1 /* MJRefreshAutoNormalFooter.m in Sources */,
+				8EA2928C1CC471C6008F744B /* UIButton+ExtendTouchRect.m in Sources */,
 				8EF755051C7D918700F8C93E /* FirstViewController.m in Sources */,
 				2E7A746C1B4F571C008A5EFC /* AppDelegate.m in Sources */,
 				8EA659121C842C4E000F0CA1 /* MJRefreshBackFooter.m in Sources */,
 				8EA659261C842C97000F0CA1 /* ThirdUIViewController.m in Sources */,
 				8EFB045C1C85353E006F1822 /* UIControl+IntervalClick.m in Sources */,
+				8EA292891CC46AC8008F744B /* FiveViewController.m in Sources */,
 				8EA659141C842C4E000F0CA1 /* MJRefreshFooter.m in Sources */,
 				8EFB045E1C85353E006F1822 /* UINavigationController+Swizzling.m in Sources */,
 				8EFB045B1C85353E006F1822 /* UIButton+Clicked.m in Sources */,
